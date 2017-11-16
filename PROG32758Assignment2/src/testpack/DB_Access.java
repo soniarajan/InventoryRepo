@@ -15,7 +15,7 @@ public class DB_Access implements DB_Params {
 			e.printStackTrace();
 		}
 	}	
-	
+	//update local
 	public int validateLogin(String uname, String upass) {
 		int uid = -1; // assumption, -1 is returned when credentials are wrong
 		
