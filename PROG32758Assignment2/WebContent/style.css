@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+body,td {
+	font-size: 1.5em;
+	background-color: silver;
+}
+
+#header {
+	display:block;
+	clear: both;
+	margin-left: calc(50% - 50vw);
+  	width: 70vw;
+  	background-color:gray;
+  	font-size:larger;
+  	font-weight:600;
+}
