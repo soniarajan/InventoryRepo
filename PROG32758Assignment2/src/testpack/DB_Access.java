@@ -29,6 +29,7 @@ public class DB_Access implements DB_Params {
 				// we have the row, credentials are correct
 				uid = rs.getInt(1);
 			}
+			System.out.println("test");
 		}catch(Exception e) {e.printStackTrace();}
 		
 		return uid;
